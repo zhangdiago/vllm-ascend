@@ -1,0 +1,41 @@
+.github/workflows/_selected_tests.yaml
+  s_4e92ece2a306b0::t_283db8a47e2aee 329-330
+  s_4e92ece2a306b0::t_f2193096ee4780 321-326
+  s_4e92ece2a306b0::t_3bcfb9c59e04f6 162-163
+  s_4e92ece2a306b0::t_7f2f55c6634895 160-161,166-183
+  s_4e92ece2a306b0::t_21fff16c2c3bcd 164-165,184,187-193,196-200,202
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "245a0f19e166f3b6fab4b9280b5d78630ece4f76",
+  "prompts": {},
+  "humans": {
+    "h_b6d781cb85a88e": {
+      "author": "zhangdiago <zhangdiago@163.com>"
+    }
+  },
+  "sessions": {
+    "s_4e92ece2a306b0": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a8670bc3a4a53e31f9daba3",
+        "model": "minimax-m3"
+      },
+      "human_author": "zhangdiago <zhangdiago@163.com>",
+      "custom_attributes": {
+        "dedupe_key": "6a8670bc3a4a53e31f9daba3:6aa505be17f67644683adadd:afterEdit:7aaccd6a",
+        "tool_use_id": "6aa505be17f67644683adadd",
+        "session_id": "6a8670bc3a4a53e31f9daba3",
+        "client_type": "ide",
+        "operation_id": "6aa505be17f67644683adadd",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_type": "builtin",
+        "edit_kind": "file_edit",
+        "external_session_id": "6a8670bc3a4a53e31f9daba3",
+        "source_scene": "agent",
+        "tool_id": "icube:applyChatSnapshotPatch"
+      }
+    }
+  }
+}
