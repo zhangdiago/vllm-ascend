@@ -1,0 +1,32 @@
+.github/workflows/_selected_tests.yaml
+  s_4e92ece2a306b0::t_3d5bfd2e711dbe 341-349,351,354
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "2c13bbfade8a26da859a0a505bf3753524cf5fe3",
+  "prompts": {},
+  "sessions": {
+    "s_4e92ece2a306b0": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a8670bc3a4a53e31f9daba3",
+        "model": "glm-5.3"
+      },
+      "human_author": "zhangdiago <zhangdiago@163.com>",
+      "custom_attributes": {
+        "operation_id": "6aa8f1fc17f67644683adf2a",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_type": "builtin",
+        "session_id": "6a8670bc3a4a53e31f9daba3",
+        "external_session_id": "6a8670bc3a4a53e31f9daba3",
+        "client_type": "ide",
+        "edit_kind": "file_edit",
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "source_scene": "agent",
+        "tool_use_id": "6aa8f1fc17f67644683adf2a",
+        "dedupe_key": "6a8670bc3a4a53e31f9daba3:6aa8f1fc17f67644683adf2a:afterEdit:7aaccd6a"
+      }
+    }
+  }
+}
